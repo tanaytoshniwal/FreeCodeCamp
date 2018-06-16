@@ -1,0 +1,28 @@
+#main {
+    text-align: center;
+}
+#mydata{
+    margin: 1em .5em;
+    background-color: rgba(170, 170, 170, .75);
+    border-radius: 25px;
+}
+#title {
+    font-weight: bold;
+    padding: 3em ;
+}
+#img-div{
+    background-color: white;
+    margin: 0 1em;
+}
+#img-caption {
+    padding-bottom: 1em !important;
+}
+img{
+    padding-top: 1em;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+h1, h2{
+    padding-bottom: .5em;
+}
