@@ -1,0 +1,19 @@
+#header-img{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.nav-link{
+    margin: 3px;
+    padding: 0 1em;
+}
+ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+main{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}

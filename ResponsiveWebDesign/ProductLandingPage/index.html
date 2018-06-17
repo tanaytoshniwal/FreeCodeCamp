@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product Landing Page</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header id="header">
+        <img src="./images/logo.png" alt="logo" id="header-img">
+        <nav id="nav-bar" class="d-flex flex-row">
+            <ul class="d-flex flex-row ml-auto">
+                <li>
+                    <a href="#video" class="nav-link">video</a>
+                </li>
+                <li>
+                    <a href="#video" class="nav-link">Link Two</a>
+                </li>
+                <li>
+                    <a href="#video" class="nav-link">Link Three</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <label for="email">Enter Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email" required>
+            <div>
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/7_SHog_UWOI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </main>
+</body>
+</html>
