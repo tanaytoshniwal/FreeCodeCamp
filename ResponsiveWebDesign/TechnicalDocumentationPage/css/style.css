@@ -1,0 +1,40 @@
+#header-img{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+header{
+    font-size: 2em;
+    font-weight: bold;
+}
+.navigation{
+    list-style: none;
+}
+.nav-link{
+    border: 2px solid rgb(0, 0, 0);
+    display: block;
+    width: 100%;
+}
+@media (max-width: 400px){
+
+}
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0,22,22,0.4);
+}
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+.main{
+    grid-template-columns: 30% 70% !important;   
+}
