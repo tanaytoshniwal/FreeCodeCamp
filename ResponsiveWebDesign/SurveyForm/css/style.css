@@ -1,0 +1,16 @@
+#main{
+    text-align: center;
+    background-color: cyan;
+    min-height: 100vh;
+}
+#title{
+    padding: .9em 0;
+}
+#description{
+    padding: 2em 0;
+}
+.content{
+    background-color: white;
+    border-radius: 25px 25px;
+    margin: 0 4em 1em 4em;
+}
