@@ -14,3 +14,9 @@
     border-radius: 25px 25px;
     margin: 0 4em 1em 4em;
 }
+form{
+    max-width: 75%;
+}
+.co{
+    width: 175px;
+}
