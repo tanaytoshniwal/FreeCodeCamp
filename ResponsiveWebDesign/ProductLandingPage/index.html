@@ -10,31 +10,119 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header id="header">
-        <img src="./images/logo.png" alt="logo" id="header-img">
-        <nav id="nav-bar" class="d-flex flex-row">
-            <ul class="d-flex flex-row ml-auto">
-                <li>
-                    <a href="#video" class="nav-link">video</a>
-                </li>
-                <li>
-                    <a href="#video" class="nav-link">Link Two</a>
-                </li>
-                <li>
-                    <a href="#video" class="nav-link">Link Three</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
     <main>
-        <form action="https://www.freecodecamp.com/email-submit" id="form">
-            <label for="email">Enter Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter Email" required>
-            <div>
-                <input type="submit" value="Submit" id="submit">
+        <header id="header">
+            <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img id="header-img" src="./images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#features">Features <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    </ul>       
+                </div>
+            </nav>
+        </header>
+        <div id="form-content" class="d-flex flex-column justify-content-around">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="h1">Handcrafted, home-made masterpieces</div>
             </div>
-        </form>
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/7_SHog_UWOI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="d-flex flex-row justify-content-center mt-3">
+                <form id="form" class="text-center" action="https://www.freecodecamp.com/email-submit">
+                    <div class="form-group m-3">
+                        <input name="email" type="email" class="form-control" id="email" placeholder="enter your email">
+                    </div>
+                    <input id="submit" type="submit" value="Get Started" class="btn btn-info m-2">
+                </form>
+            </div>
+        </div>
+        <div id="content">
+            <section id="features">
+            <div  class="row m-5">
+                <div class="col-4 d-flex flex-row justify-content-end">
+                    <img src="./images/logo.png" alt="logo" class="ico">
+                </div>    
+                <div class="col-8 d-flex flex-column justify-content-center">    
+                    <h3>Premium Material</h3>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </div>
+            <div  class="row m-5">
+                <div class="col-4 d-flex flex-row-reverse">
+                    <img src="./images/logo.png" alt="logo" class="ico">
+                </div>    
+                <div class="col-8 d-flex flex-column justify-content-center">    
+                    <h3>Fast Shipping</h3>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+            </div>
+            <div  class="row m-5">
+                <div class="col-4 d-flex flex-row-reverse">
+                    <img src="./images/logo.png" alt="logo" class="ico">
+                </div>    
+                <div class="col-8 d-flex flex-column justify-content-center">    
+                    <h3>Quality Assurance</h3>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                </div>
+            </div>
+            </section>
+            <section id="how-it-works" class="d-flex flex-row justify-content-center">
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/7_SHog_UWOI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </section>
+            <section id="pricing" class="d-flex flex-row justify-content-around">
+                <div class="card text-center">
+                    <div class="card-header">
+                        TENOR TROMBONE
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">$900</h5>
+                        <p class="card-text">Lorem ipsum.<br>Lorem ipsum.<br>Lorem ipsum dolor.<br>Lorem ipsum.</p>
+                        <a href="#" class="btn btn-info">SELECT</a>
+                    </div>
+                </div>
+                <div class="card text-center">
+                    <div class="card-header">
+                        BASS TROMBONE
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">$900</h5>
+                        <p class="card-text">Lorem ipsum.<br>Lorem ipsum.<br>Lorem ipsum dolor.<br>Lorem ipsum.</p>
+                        <a href="#" class="btn btn-info">SELECT</a>
+                    </div>
+                </div>
+                <div class="card text-center">
+                    <div class="card-header">
+                        VALVE TROMBONE
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">$900</h5>
+                        <p class="card-text">Lorem ipsum.<br>Lorem ipsum.<br>Lorem ipsum dolor.<br>Lorem ipsum.</p>
+                        <a href="#" class="btn btn-info">SELECT</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="container bg-secondary text-light">
+            <ul class="d-flex flex-row-reverse">
+                <li><a href="#" class="m-3 d-flex">Privacy</a></li>
+                <li><a href="#" class="m-3 d-flex">Terms</a></li>
+                <li><a href="#" class="m-3 d-flex">Contact</a></li>
+            </ul>
+            <span class="d-flex flex-row-reverse">Copyright 2016, Original Trombones</span>
+        </footer>
     </main>
+</body>
+</html>
 </body>
 </html>
