@@ -1,0 +1,27 @@
+#welcome-section{
+    min-height: 55vh;
+    padding-top: 45vh;
+    padding-bottom: 45vh;
+    height: 100vh;
+}
+.card{
+    margin-left: 120px;
+}
+.profile-icon {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 35px 45px 35px;
+    list-style-type: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  img{
+      width: 100px;
+      height: 100px;
+  }

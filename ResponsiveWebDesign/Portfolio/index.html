@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <header><a class="navbar-brand" href="#">Portfolio</a></header>
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#welcome-section">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#profile-links">Contact</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="welcome-section" class="text-center">
+        <h1>Hey, I'm Tanay</h1>
+        <p>A Web Developer and An Android Developer</p>
+    </div>
+    <div id="projects" class="d-flex flex-column">
+        <div class="d-flex flex-row justify-content-center"><h1>There are some of my projects</h1></div>
+        <div class="row mt-5">
+        <div class="col-md-6 text-center p-5">
+        <div class="card project-tile" style="width: 18rem;">
+            <img class="card-img-top" src="tribute.PNG" alt="Tribute Page Project">
+            <div class="card-body">
+                <h5 class="project-title">Tribute Page</h5>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-6 p-5">
+        <div class="card project-tile" style="width: 18rem;">
+            <img class="card-img-top" src="survey.PNG" alt="survey form project">
+            <div class="card-body">
+                <h5 class="project-title">Survey Form</h5>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-6 p-5">
+        <div class="card  project-tile" style="width: 18rem;">
+            <img class="card-img-top" src="landing.PNG" alt="landing page project">
+            <div class="card-body">
+                <h5 class="project-title">Landing Page</h5>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-6 p-5">
+        <div class="card project-tile" style="width: 18rem;">
+            <img class="card-img-top" src="documentation.PNG" alt="Technical Documentation Project">
+            <div class="card-body">
+                <h5 class="project-title">Technical Documentation</h5>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center"><a href="github.com/Ritvikjain"><button type="button" class="btn btn-primary">Show All</button></a></div>
+    </div>
+    <div id="profile-links" class="text-center mt-5 p-3">
+        <h1 class="p-5">Let's Work Toghether</h1>
+        <a href="facebook.com" ><img class="profile-icon" src="facebook.png"></a>
+        <a id="profile-link" target="_blank" href="github.com/Ritvikjain" ><img class="profile-icon" src="github.png"></a>
+        <a href="linkdin.com" ><img class="profile-icon" src="linkdin.png"></a>
+        <a href="twitter.com" ><img class="profile-icon" src="twiter.png"></a>
+    </div>
+</body>
+</html>
